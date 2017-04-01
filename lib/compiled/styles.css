@@ -1,0 +1,44 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+body {
+  background-color: #FFF7ED;
+  font-family: Arial, sans-serif; }
+
+.add-reference {
+  margin: 10px; }
+
+.add-reference ul {
+  list-style-type: none;
+  padding-left: 0px; }
+
+.add-reference ul li label {
+  color: #888; }
+
+.add-reference input {
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  width: 100%;
+  transition: 0.4s ease;
+  margin-bottom: 20px;
+  padding: 5px; }
+
+.add-reference input:focus {
+  border-bottom: 1px solid #FF2B32; }
+
+#submitbutton {
+  transform: translate(-50%, 0);
+  margin-top: 20px;
+  margin-left: 50%;
+  border-bottom: 0px;
+  width: 50%;
+  max-width: 300px;
+  min-width: 100px;
+  cursor: pointer; }
+
+/*# sourceMappingURL=styles.css.map */

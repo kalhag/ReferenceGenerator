@@ -3,17 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="./lib/compiled/styles.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <form class="add-reference">
+      <ul>
+        <li><label>Author</label></li>
+        <li><input id="name"></input></li>
+        <li><label>Year</label></li>
+        <li><input id="year"></input></li>
+        <li><label>Title</label></li>
+        <li><input id="title"></input></li>
+        <li><input type="submit" id="submitbutton" value="add"></input></li>
+      </ul>
+    </form>
   </body>
 
   <script>
     // You can also require other files to run in this process
     require('./renderer.js')
   </script>
+  <script src="./lib/scripts.js"></script>
 </html>
