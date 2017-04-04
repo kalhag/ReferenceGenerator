@@ -1,4 +1,2 @@
 node_modules
-*.scss
-*.scssc
 lib/.sass-cache
