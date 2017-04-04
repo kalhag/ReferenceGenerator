@@ -1,6 +1,8 @@
 //Variables
-$background: #303030;
-$redhighlight: #FF2B32;
+$background: #FAFFFF;
+$menu-background: #DADDDD;
+$redhighlight: #FF5879;
+$button-color: #FF5879;
 
 
 //Generic
@@ -31,7 +33,7 @@ body {
 .menu-container {
   width: 40px;
   height: 100vh;
-  background-color: #252525;
+  background-color: $menu-background;
 }
 
 .add-reference {
@@ -50,7 +52,7 @@ body {
 .add-reference input {
   border: 0px;
   border-bottom: 1px solid rgba(0,0,0,0.3);
-  background-color: rgba(255,255,255,0.05);
+  background-color: rgba(0,0,0,0.05);
   font-size: 18px;
   border-radius: 2px;
   width: 100%;
@@ -67,19 +69,23 @@ body {
 
 #submitbutton {
   transform: translate(-50%,0);
-  color: #888;
+  background-color: rgba(0,0,0,0);
+  color: #666;
   margin-top: 20px;
   margin-left: 50%;
   border-bottom: 0px;
-  width: 50%;
+  border: 1px solid #AAA;
+  width: 30%;
   max-width: 300px;
   min-width: 100px;
   cursor: pointer;
-  transition: 0.1s ease;
+  transition: 0.2s ease;
+  opacity: 1;
+  border-radius: 20px;
 }
 
 #submitbutton:hover {
-  background-color: rgba(255,255,255,0.1);
+  color: #888;
 }
 
 #submitbutton:active {
