@@ -70,4 +70,11 @@ body {
   background-color: #FF5879;
   color: #444; }
 
+#reference-list {
+  width: calc(100% - 10px);
+  height: 100%;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: inset 2px 2px 5px 0px rgba(0, 0, 0, 0.1); }
+
 /*# sourceMappingURL=styles.css.map */

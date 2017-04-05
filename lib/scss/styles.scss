@@ -13,7 +13,6 @@ button:focus {
     outline: none;
 }
 
-
 //Styles
 body {
   background-color: $background;
@@ -91,4 +90,13 @@ body {
 #submitbutton:active {
   background-color: $redhighlight;
   color: #444;
+}
+
+//Reference list
+#reference-list {
+  width: calc(100% - 10px);
+  height: 100%;
+  margin-left: 10px;
+  background-color: rgba(0,0,0,0.05);
+  box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.1);
 }
